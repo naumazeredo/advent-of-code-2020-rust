@@ -5,6 +5,7 @@ use std::vec::Vec;
 mod day1;
 mod day2;
 mod day3;
+mod day4;
 
 fn main() {
     let args : Vec<String> = std::env::args().collect();
@@ -23,6 +24,7 @@ fn main() {
         "1" => day1::run(args[2].as_str(), buffer),
         "2" => day2::run(args[2].as_str(), buffer),
         "3" => day3::run(args[2].as_str(), buffer),
+        "4" => day4::run(args[2].as_str(), buffer),
         _ => (),
     }
 }
