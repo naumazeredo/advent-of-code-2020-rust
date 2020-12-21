@@ -1,5 +1,3 @@
-use std::vec::Vec;
-
 pub fn run(part : &str, buffer: String) {
     match part {
         "1" => part1(buffer),
